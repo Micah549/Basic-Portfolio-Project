@@ -1,0 +1,16 @@
+.Heading-h1{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color:#584270;
+    padding: 20px auto 30px auto ;
+    margin: 15px 10px 15px 10px ;
+    font-weight: 100;
+    
+}
+button, button:hover {
+    padding: 10px;
+    align-content: center;
+    border-radius: solid 6px;
+    background-color: blueviolet;
+    color: white;
+}

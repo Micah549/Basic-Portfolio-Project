@@ -1,0 +1,51 @@
+p{
+    font-family: 'Unna', serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 10px;
+    
+}
+
+.Content-p
+{
+    color: rgb(109, 109, 109);
+}
+body{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gridStyling{
+    max-width: 100%;
+    padding: 10px 3px 10px 5px;
+    margin-left:60px;
+    text-align: center;
+   
+}
+@media (prefers-reduced-motion: no-preference){
+    .animateAvatar{
+        animation: animateAvatar-spin infinite 20s linear ;
+    }  
+}
+
+
+
+@keyframes animateAvatar-spin{
+    from {
+        transform: rotate(0deg);
+        transform-origin: tran;
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+img{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
